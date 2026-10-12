@@ -1,0 +1,12 @@
+node_modules
+.next
+src/generated
+package-lock.json
+playwright-report
+test-results
+PACT_*.md
+PACT_*.csv
+AGENTS.md
+.env*
+
+.agent/

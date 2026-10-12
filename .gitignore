@@ -1,0 +1,62 @@
+# Dependencies and generated application output
+node_modules/
+.next/
+out/
+dist/
+coverage/
+playwright-report/
+test-results/
+*.tsbuildinfo
+src/generated/
+.cache/
+.turbo/
+.nyc_output/
+blob-report/
+playwright/.cache/
+*.lcov
+
+# Local planning, assistant instructions, and publication working notes
+/.agent/
+/AGENTS.md
+/docs/GITHUB_READINESS.md
+/docs/local/
+/docs/drafts/
+docs
+scripts
+tests
+/.github/
+/ci.yml
+
+# Disposable debugging output and manually captured test artifacts
+/tmp/
+/temp/
+/artifacts/
+/screenshots/
+
+# Keep tests/, scripts/, docs/SETUP.md, and docs/APIMATIC_CONTEXT_USAGE.md:
+# they support reproducible checks, CI, setup, and sponsor usage evidence.
+
+# Local credentials and private integration material
+.env*
+!.env.example
+.vercel/
+.private/
+secrets/
+**/*credentials*.json
+**/*service-account*.json
+**/*license-key*
+**/*licence-key*
+*.pem
+*.key
+
+# Local evidence belongs in private object storage, not source control
+private-evidence/
+local-evidence/
+
+# Editor and OS output
+.DS_Store
+.idea/
+*.log
+*.swp
+*.swo
+*~
